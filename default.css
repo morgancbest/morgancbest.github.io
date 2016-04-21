@@ -60,7 +60,7 @@ a:hover {
 /* Wrapper */
 
 #wrapper {
-	background: #004d4d; /*url(images/img04.gif) repeat-x left bottom;*/
+	background: #004d4d repeat-x left bottom; /*url(images/img04.gif) repeat-x left bottom;*/
 }
 
 /* Menu */
@@ -139,7 +139,7 @@ a:hover {
 	text-align: right;
 	letter-spacing: -1px;
 	font-size: 22px;
-	color: #FFFFFF;
+	/*color: #FFFFFF;*/
 }
 
 /* Content */

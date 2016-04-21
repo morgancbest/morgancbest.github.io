@@ -163,11 +163,13 @@ a:hover {
 #posts .story {
 	padding: 15px 20px 0 20px;
 	/*background: url(images/img10.gif) repeat-x*/
+	background: #004d4d;
 }
 
 #posts .meta {
 	padding: 5px 0 0 20px;
 	/*background: url(images/img03.gif) repeat-x;*/
+	background: #004d4d;
 }
 
 #posts .meta p {
@@ -181,7 +183,7 @@ a:hover {
 }
 
 #posts ul li {
-	background-color: #004d4d
+	background-color: #004d4d;
 }
 
 /* Links */
@@ -200,11 +202,13 @@ a:hover {
 #links li ul {
 	padding: 15px 20px 30px 20px;
 	/*background: url(images/img10.gif) repeat-x*/
+	background: #004d4d;
 }
 
 #links li li {
 	padding: 3px 0;
 	/*background: url(images/img03.gif) repeat-x left bottom;*/
+	background: #004d4d;
 }
 
 #links li a {
@@ -220,18 +224,19 @@ a:hover {
 #footer {
 	padding: 40px 0 60px 0;
 	/*background: url(images/img08.gif) repeat-x;*/
+	background: #001a1a;
 }
 
 #footer p {
 	width: 750px;
 	font-family: Georgia, "Times New Roman", Times, serif;
-	color: #001a1a;
+	color: #00b3b3;
 }
 
 #footer a {
 	background: none;
 	font-weight: bold;
-	color: #001a1a;
+	color: #00b3b3;
 }
 
 #legal {

@@ -63,7 +63,8 @@ a:hover {
 /* Wrapper */
 
 #wrapper {
-	background: #004d4d repeat-x left bottom; /*url(images/img04.gif) repeat-x left bottom;*/
+	/*background: #004d4d repeat-x left bottom;*/ 
+	background: url(images/img04.gif) repeat-x left bottom;
 }
 
 /* Menu */
@@ -86,8 +87,8 @@ a:hover {
 	width: 148px;
 	height: 60px;
 	padding: 0 0 0 2px;
-	background: #001a1a;
-	/*background: url(images/img02.gif) no-repeat;*/
+	/*background: #001a1a;*/
+	background: url(images/img02.gif) no-repeat;
 }
 
 #menu a {
@@ -166,14 +167,14 @@ a:hover {
 
 #posts .story {
 	padding: 15px 20px 0 20px;
-	/*background: url(images/img10.gif) repeat-x*/
-	background: #004d4d;
+	background: url(images/img10.gif) repeat-x
+	/*background: #004d4d;*/
 }
 
 #posts .meta {
 	padding: 5px 0 0 20px;
-	/*background: url(images/img03.gif) repeat-x;*/
-	background: #004d4d;
+	background: url(images/img03.gif) repeat-x;
+	/*background: #004d4d;*/
 }
 
 #posts .meta p {
@@ -207,14 +208,14 @@ a:hover {
 
 #links li ul {
 	padding: 15px 20px 30px 20px;
-	/*background: url(images/img10.gif) repeat-x*/
-	background: #004d4d;
+	background: url(images/img10.gif) repeat-x
+	/*ackground: #004d4d;*/
 }
 
 #links li li {
 	padding: 3px 0;
-	/*background: url(images/img03.gif) repeat-x left bottom;*/
-	background: #004d4d;
+	background: url(images/img03.gif) repeat-x left bottom;
+	/*background: #004d4d;*/
 }
 
 #links li a {
@@ -231,8 +232,8 @@ a:hover {
 
 #footer {
 	padding: 40px 0 60px 0;
-	/*background: url(images/img08.gif) repeat-x;*/
-	background: #001a1a;
+	background: url(images/img08.gif) repeat-x;
+	/*background: #001a1a;*/
 }
 
 #footer p {
@@ -257,8 +258,8 @@ a:hover {
 #brand {
 	margin: -35px auto 0 auto;
 	padding: 10px 0 0 35px;
-	/* background: url(images/img09.gif) no-repeat left top; */
-	background: #001a1a;
+	background: url(images/img09.gif) no-repeat left top;
+	/*background: #001a1a;*/
 	letter-spacing: -1px;
 	font-size: 24px;
 }

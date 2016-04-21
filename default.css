@@ -10,7 +10,7 @@ body {
 	background: #749865 url(images/img01.gif) repeat-x;
 	font: normal small Arial, Helvetica, sans-serif;
 	line-height: 1.8em;
-	color: #838B91;
+	color: #00b3b3;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -49,7 +49,7 @@ blockquote {
 a {
 	background: url(images/img03.gif) repeat-x left bottom;
 	text-decoration: none;
-	color: #468259;
+	color: #001a1a;
 }
 
 a:hover {

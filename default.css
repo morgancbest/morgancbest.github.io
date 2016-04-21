@@ -7,7 +7,7 @@ Released for free under a Creative Commons Attribution 2.5 License
 body {
 	margin: 0;
 	padding: 0;
-	background: #749865 url(images/img01.gif) repeat-x;
+	background: #001a1a url(images/img01.gif) repeat-x;
 	font: normal small Arial, Helvetica, sans-serif;
 	line-height: 1.8em;
 	color: #00b3b3;
@@ -41,13 +41,13 @@ p, blockquote, ul, ol {
 
 blockquote {
 	padding: 0 0 0 40px;
-	background: url(images/img11.gif) no-repeat;
+	/*background: url(images/img11.gif) no-repeat;*/
 	font: italic small Georgia, "Times New Roman", Times, serif;
 	line-height: 1.6em;
 }
 
 a {
-	background: url(images/img03.gif) repeat-x left bottom;
+	/*background: url(images/img03.gif) repeat-x left bottom;*/
 	text-decoration: none;
 	color: #ccfff2;
 }
@@ -83,7 +83,7 @@ a:hover {
 	width: 148px;
 	height: 60px;
 	padding: 0 0 0 2px;
-	background: url(images/img02.gif) no-repeat;
+	/*background: url(images/img02.gif) no-repeat;*/
 }
 
 #menu a {
@@ -162,12 +162,12 @@ a:hover {
 
 #posts .story {
 	padding: 15px 20px 0 20px;
-	background: url(images/img10.gif) repeat-x
+	/*background: url(images/img10.gif) repeat-x*/
 }
 
 #posts .meta {
 	padding: 5px 0 0 20px;
-	background: url(images/img03.gif) repeat-x;
+	/*background: url(images/img03.gif) repeat-x;*/
 }
 
 #posts .meta p {
@@ -177,7 +177,7 @@ a:hover {
 }
 
 #posts ul {
-	list-style: url(images/img12.gif);
+	/*list-style: url(images/img12.gif);*/
 }
 
 #posts ul li {
@@ -198,12 +198,12 @@ a:hover {
 
 #links li ul {
 	padding: 15px 20px 30px 20px;
-	background: url(images/img10.gif) repeat-x
+	/*background: url(images/img10.gif) repeat-x*/
 }
 
 #links li li {
 	padding: 3px 0;
-	background: url(images/img03.gif) repeat-x left bottom;
+	/*background: url(images/img03.gif) repeat-x left bottom;*/
 }
 
 #links li a {
@@ -218,7 +218,7 @@ a:hover {
 
 #footer {
 	padding: 40px 0 60px 0;
-	background: url(images/img08.gif) repeat-x;
+	/*background: url(images/img08.gif) repeat-x;*/
 }
 
 #footer p {
@@ -242,7 +242,7 @@ a:hover {
 #brand {
 	margin: -35px auto 0 auto;
 	padding: 10px 0 0 35px;
-	background: url(images/img09.gif) no-repeat left top;
+	/* background: url(images/img09.gif) no-repeat left top; */
 	letter-spacing: -1px;
 	font-size: 24px;
 }

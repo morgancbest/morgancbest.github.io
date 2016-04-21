@@ -100,14 +100,14 @@ a:hover {
 #menu a:hover {
 	border-bottom: 4px solid #5A7C50;
 	text-decoration: none;
-	color: #FFFFFF;
+	color: #00b3b3;
 }
 
 #menu .active a {
-	background: #E1E9E2;
+	background: #FFFFFF;
 	border-bottom: 4px solid #E1E9E2;
 	text-decoration: none;
-	color: #749865;
+	color: #ccfff2;
 }
 
 /* Header */

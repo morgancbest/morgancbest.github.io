@@ -7,7 +7,7 @@ Released for free under a Creative Commons Attribution 2.5 License
 body {
 	margin: 0;
 	padding: 0;
-	background: #001a1a; /*url(images/img01.gif) repeat-x;*/
+	background: #001a1a repeat-x; /*url(images/img01.gif) repeat-x;*/
 	font: normal small Arial, Helvetica, sans-serif;
 	line-height: 1.8em;
 	color: #00b3b3;
@@ -42,6 +42,7 @@ p, blockquote, ul, ol {
 blockquote {
 	padding: 0 0 0 40px;
 	/*background: url(images/img11.gif) no-repeat;*/
+	background: #004d4d no-repeat;
 	font: italic small Georgia, "Times New Roman", Times, serif;
 	line-height: 1.6em;
 }
@@ -49,6 +50,7 @@ blockquote {
 a {
 	/*background: url(images/img03.gif) repeat-x left bottom;*/
 	text-decoration: none;
+	background: #001a1a;
 	color: #ccfff2;
 }
 
@@ -83,6 +85,7 @@ a:hover {
 	width: 148px;
 	height: 60px;
 	padding: 0 0 0 2px;
+	background: #001a1a;
 	/*background: url(images/img02.gif) no-repeat;*/
 }
 
@@ -104,7 +107,7 @@ a:hover {
 }
 
 #menu .active a {
-	background: #FFFFFF;
+	background: #004d4d;
 	border-bottom: 4px solid #E1E9E2;
 	text-decoration: none;
 	color: #ccfff2;
@@ -179,7 +182,7 @@ a:hover {
 }
 
 #posts ul {
-	/*list-style: url(images/img12.gif);*/
+	list-style: url(images/img12.gif);
 }
 
 #posts ul li {
@@ -191,12 +194,14 @@ a:hover {
 #links {
 	float: left;
 	width: 220px;
+	background-color: #004d4d;
 }
 
 #links ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	background-color: #004d4d;
 }
 
 #links li ul {
@@ -212,11 +217,13 @@ a:hover {
 }
 
 #links li a {
-	background: none;
+	/*background: none;*/
+	background-color: #004d4d;
 }
 
 #links li i {
 	font-size: smaller;
+	background-color: #004d4d;
 }
 
 /* Footer */
@@ -234,7 +241,8 @@ a:hover {
 }
 
 #footer a {
-	background: none;
+	/*background: none;*/
+	background: #001a1a;
 	font-weight: bold;
 	color: #00b3b3;
 }
@@ -249,6 +257,7 @@ a:hover {
 	margin: -35px auto 0 auto;
 	padding: 10px 0 0 35px;
 	/* background: url(images/img09.gif) no-repeat left top; */
+	background: #001a1a;
 	letter-spacing: -1px;
 	font-size: 24px;
 }

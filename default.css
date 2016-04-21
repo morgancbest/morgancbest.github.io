@@ -49,7 +49,7 @@ blockquote {
 a {
 	background: url(images/img03.gif) repeat-x left bottom;
 	text-decoration: none;
-	color: #001a1a;
+	color: #468259;
 }
 
 a:hover {
@@ -60,7 +60,7 @@ a:hover {
 /* Wrapper */
 
 #wrapper {
-	background: #FFFFFF url(images/img04.gif) repeat-x left bottom;
+	background: #001a1a url(images/img04.gif) repeat-x left bottom;
 }
 
 /* Menu */

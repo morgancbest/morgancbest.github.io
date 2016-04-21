@@ -49,9 +49,9 @@ blockquote {
 }
 
 a {
-	/*background: url(images/img03.gif) repeat-x left bottom;*/
+	background: url(images/img03.gif) repeat-x left bottom;
 	text-decoration: none;
-	background: #001a1a;
+	/*background: #001a1a;*/
 	color: #ccfff2;
 }
 

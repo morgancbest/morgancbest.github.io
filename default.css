@@ -42,8 +42,8 @@ p, blockquote, ul, ol {
 
 blockquote {
 	padding: 0 0 0 40px;
-	/*background: url(images/img11.gif) no-repeat;*/
-	background: #004d4d no-repeat;
+	background: url(images/img11.gif) no-repeat;
+	/*background: #004d4d no-repeat;*/
 	font: italic small Georgia, "Times New Roman", Times, serif;
 	line-height: 1.6em;
 }

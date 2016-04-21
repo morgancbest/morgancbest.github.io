@@ -60,7 +60,7 @@ a:hover {
 /* Wrapper */
 
 #wrapper {
-	background: #004d4d url(images/img04.gif) repeat-x left bottom;
+	background: #004d4d; /*url(images/img04.gif) repeat-x left bottom;*/
 }
 
 /* Menu */

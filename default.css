@@ -7,7 +7,7 @@ Released for free under a Creative Commons Attribution 2.5 License
 body {
 	margin: 0;
 	padding: 0;
-	background: #001a1a url(images/img01.gif) repeat-x;
+	background: #001a1a; /*url(images/img01.gif) repeat-x;*/
 	font: normal small Arial, Helvetica, sans-serif;
 	line-height: 1.8em;
 	color: #00b3b3;
@@ -181,6 +181,7 @@ a:hover {
 }
 
 #posts ul li {
+	background-color: #004d4d
 }
 
 /* Links */

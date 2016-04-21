@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-weight: normal;
-	color: #468259;
+	color: #ccfff2;
 }
 
 h2 {
@@ -49,7 +49,7 @@ blockquote {
 a {
 	background: url(images/img03.gif) repeat-x left bottom;
 	text-decoration: none;
-	color: #468259;
+	color: #ccfff2;
 }
 
 a:hover {
@@ -60,7 +60,7 @@ a:hover {
 /* Wrapper */
 
 #wrapper {
-	background: #001a1a url(images/img04.gif) repeat-x left bottom;
+	background: #004d4d url(images/img04.gif) repeat-x left bottom;
 }
 
 /* Menu */
@@ -224,13 +224,13 @@ a:hover {
 #footer p {
 	width: 750px;
 	font-family: Georgia, "Times New Roman", Times, serif;
-	color: #A6C09B;
+	color: #001a1a;
 }
 
 #footer a {
 	background: none;
 	font-weight: bold;
-	color: #A6C09B;
+	color: #001a1a;
 }
 
 #legal {

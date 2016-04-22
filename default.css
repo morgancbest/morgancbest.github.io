@@ -8,7 +8,7 @@ body {
 	margin: 0;
 	padding: 0;
 	/*background: #001a1a repeat-x;*/ 
-	background: url(images/img01.jpg) repeat-x;
+	background: url(images/img01.jpg) repeat-x repeat-y;
 	font: normal small Arial, Helvetica, sans-serif;
 	line-height: 1.8em;
 	color: #00b3b3;
@@ -203,7 +203,7 @@ a:hover {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	background-color: #004d4d;
+	/*background-color: #004d4d;*/
 }
 
 #links li ul {

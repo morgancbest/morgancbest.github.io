@@ -8,7 +8,7 @@ body {
 	margin: 0;
 	padding: 0;
 	/*background: #001a1a repeat-x;*/ 
-	background: url(images/img01.jpg) repeat-x repeat-y;
+	background: url(images/img01.jpg) repeat-x;
 	font: normal small Arial, Helvetica, sans-serif;
 	line-height: 1.8em;
 	color: #00b3b3;
@@ -64,7 +64,7 @@ a:hover {
 
 #wrapper {
 	/*background: #004d4d repeat-x left bottom;*/ 
-	/*background: url(images/img04.gif) repeat-x left bottom;*/
+	background: url(images/img01.jpg) repeat-x left bottom;
 }
 
 /* Menu */

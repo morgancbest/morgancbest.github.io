@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
 	padding-left: 20px;
-	background: url(images/img07.gif) no-repeat left center;
+	/*background: url(images/img07.gif) no-repeat left center;*/
 	font-size: 22px;
 }
 
@@ -42,14 +42,14 @@ p, blockquote, ul, ol {
 
 blockquote {
 	padding: 0 0 0 40px;
-	background: url(images/img11.gif) no-repeat;
+	/*background: url(images/img11.gif) no-repeat;*/
 	/*background: #004d4d no-repeat;*/
 	font: italic small Georgia, "Times New Roman", Times, serif;
 	line-height: 1.6em;
 }
 
 a {
-	background: url(images/img03.gif) repeat-x left bottom;
+	/*background: url(images/img03.gif) repeat-x left bottom;*/
 	text-decoration: none;
 	/*background: #001a1a;*/
 	color: #ccfff2;
@@ -64,7 +64,7 @@ a:hover {
 
 #wrapper {
 	/*background: #004d4d repeat-x left bottom;*/ 
-	background: url(images/img04.gif) repeat-x left bottom;
+	/*background: url(images/img04.gif) repeat-x left bottom;*/
 }
 
 /* Menu */
@@ -88,7 +88,7 @@ a:hover {
 	height: 60px;
 	padding: 0 0 0 2px;
 	/*background: #001a1a;*/
-	background: url(images/img02.gif) no-repeat;
+	/*background: url(images/img02.gif) no-repeat;*/
 }
 
 #menu a {
@@ -109,7 +109,7 @@ a:hover {
 }
 
 #menu .active a {
-	background: #004d4d;
+	/*background: #004d4d;*/
 	border-bottom: 4px solid #E1E9E2;
 	text-decoration: none;
 	color: #ccfff2;
@@ -167,13 +167,13 @@ a:hover {
 
 #posts .story {
 	padding: 15px 20px 0 20px;
-	background: url(images/img10.gif) repeat-x
+	/*background: url(images/img10.gif) repeat-x*/
 	/*background: #004d4d;*/
 }
 
 #posts .meta {
 	padding: 5px 0 0 20px;
-	background: url(images/img03.gif) repeat-x;
+	/*background: url(images/img03.gif) repeat-x;*/
 	/*background: #004d4d;*/
 }
 
@@ -188,7 +188,7 @@ a:hover {
 }
 
 #posts ul li {
-	background-color: #004d4d;
+	/*background-color: #004d4d;*/
 }
 
 /* Links */
@@ -196,43 +196,43 @@ a:hover {
 #links {
 	float: left;
 	width: 220px;
-	background-color: #004d4d;
+	/*background-color: #004d4d;*/
 }
 
 #links ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	background-color: #004d4d;
+	/*background-color: #004d4d;*/
 }
 
 #links li ul {
 	padding: 15px 20px 30px 20px;
-	background: url(images/img10.gif) repeat-x
+	/*background: url(images/img10.gif) repeat-x*/
 	/*ackground: #004d4d;*/
 }
 
 #links li li {
 	padding: 3px 0;
-	background: url(images/img03.gif) repeat-x left bottom;
+	/*background: url(images/img03.gif) repeat-x left bottom;*/
 	/*background: #004d4d;*/
 }
 
 #links li a {
 	/*background: none;*/
-	background-color: #004d4d;
+	/*background-color: #004d4d;*/
 }
 
 #links li i {
 	font-size: smaller;
-	background-color: #004d4d;
+	/*background-color: #004d4d;*/
 }
 
 /* Footer */
 
 #footer {
 	padding: 40px 0 60px 0;
-	background: url(images/img08.gif) repeat-x;
+	/*background: url(images/img08.gif) repeat-x;*/
 	/*background: #001a1a;*/
 }
 
@@ -244,7 +244,7 @@ a:hover {
 
 #footer a {
 	/*background: none;*/
-	background: #001a1a;
+	/*background: #001a1a;*/
 	font-weight: bold;
 	color: #00b3b3;
 }

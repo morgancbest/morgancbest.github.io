@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="styles/custom.css">
+    <link rel="icon" href="favicon.png" type="image/gif" sizes="16x16">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <button type="button" class="btn btn-primary btn-lg master-scheduler-header" disabled>Master Scheduler</button>
+
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <div class="myDropdown">
+                <input type="image" width="30" height="30" src="images/account.svg" class="burger-menu" />
+                <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 42px, 0px); top: 0px; right: 20px; will-change: transform;">
+                    <a class="dropdown-item" href="#">Profile</a>
+                    <a class="dropdown-item" href="#">Settings</a>
+                    <a class="dropdown-item" href="#">Logout</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="0"
+            aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+    </div>
+
+    <!-- Tabs -->
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active show" data-toggle="tab" href="#employees">Employees</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#schedule">Schedule</a>
+        </li>
+    </ul>
+    <div id="myTabContent" class="tab-content employee-table">
+        <div class="tab-pane fade active show" id="employees">
+            <div class="table-margin">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Unavailable</th>
+                            <th scope="col">Max Weekly Hours</th>
+                            <th scope="col">Phone Number</th>
+                            <th scope="col">Address</th>
+                            <th scope="col">
+                                <button type="button" class="btn edit-employee-button">Start Edit</button>
+                                <button type="button" class="btn btn-secondary edit-employee-button hidden">Stop Edit</button>
+                            </th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Rhonda Wallace</th>
+                            <td class="update-me">Wednesdays</td>
+                            <td>40</td>
+                            <td>678-999-8212</td>
+                            <td>123 Soulja Boi Lane </td>
+                            <td> <button type="button" class="btn edit-employee-button hidden" data-toggle="modal"
+                                    data-target="#rhondaModal">Edit</button></td>
+                            <!-- The modal -->
+                            <div class="modal" id="rhondaModal">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Edit details</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!-- Form inside of modal -->
+                                            <form>
+                                                <fieldset>
+                                                    <div class="form-group">
+                                                        <label for="rhondaFirstName">First Name</label>
+                                                        <input type="text" class="form-control" id="rhondaFirstName"
+                                                            value="Rhonda">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="rhondaLastName">Last Name</label>
+                                                        <input type="text" class="form-control" id="rhondaLastName"
+                                                            value="Wallace">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="rhondaAvailability">Availability</label>
+                                                        <input type="text" class="form-control" id="rhondaAvailability"
+                                                            value="Wednesday">
+                                                    </div>
+                                                </fieldset>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary" data-dismiss="modal">Save
+                                                changes</button>
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </tr>
+                        <tr>
+                            <th scope="row">Kyle Schwartz</th>
+                            <td>Saturday, Sunday</td>
+                            <td>40</td>
+                            <td>555-867-5309</td>
+                            <td>123 Ranbow Lane</td>
+                            <td> <button type="button" class="btn edit-employee-button hidden" data-toggle="modal"
+                                    data-target="#rhondaModal">Edit</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Janice Maublin</th>
+                            <td>Monday, Wednesday, Friday</td>
+                            <td>20</td>
+                            <td>555-555-5555</td>
+                            <td>33 Cotton Eye Joe Ln </td>
+                            <td> <button type="button" class="btn edit-employee-button hidden" data-toggle="modal"
+                                    data-target="#rhondaModal">Edit</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Felix Navidad</th>
+                            <td>Saturday, Sunday</td>
+                            <td>40</td>
+                            <td>123-456-7890</td>
+                            <td>12 North Pole Ct </td>
+                            <td> <button type="button" class="btn edit-employee-button hidden" data-toggle="modal"
+                                    data-target="#rhondaModal">Edit</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Dwayne "The Rock" Johnson</th>
+                            <td>Mornings</td>
+                            <td>30</td>
+                            <td>222-333-4444</td>
+                            <td>989 Moana Dr </td>
+                            <td> <button type="button" class="btn edit-employee-button hidden" data-toggle="modal"
+                                    data-target="#rhondaModal">Edit</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Morgan Best</th>
+                            <td>Thursday</td>
+                            <td>40</td>
+                            <td>555-555-5556</td>
+                            <td>1234 Puppy Ln </td>
+                            <td> <button type="button" class="btn edit-employee-button hidden" data-toggle="modal"
+                                    data-target="#rhondaModal">Edit</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Katey Pittman</th>
+                            <td>Monday, Wednesday, Friday</td>
+                            <td>20</td>
+                            <td>513-555-5555</td>
+                            <td>50 Unicorn Way</td>
+                            <td> <button type="button" class="btn edit-employee-button hidden" data-toggle="modal"
+                                    data-target="#rhondaModal">Edit</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Andrew Kump</th>
+                            <td>Friday, Saturday, Sunday</td>
+                            <td>40</td>
+                            <td>666-123-3456</td>
+                            <td>215 Lion St</td>
+                            <td> <button type="button" class="btn edit-employee-button hidden" data-toggle="modal"
+                                    data-target="#rhondaModal">Edit</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Andrevv Kump</th>
+                            <td>Monday, Tuesday, Wednesday, Thursday</td>
+                            <td>20</td>
+                            <td>654-332-1666</td>
+                            <td>512 Lion St</td>
+                            <td> <button type="button" class="btn edit-employee-button hidden" data-toggle="modal"
+                                    data-target="#rhondaModal">Edit</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><button type="button" class="btn edit-employee-button new-employee hidden"
+                                data-toggle="modal" data-target="#rhondaModal">Add New Employee</button></th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td> </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                <button type="button" class="btn btn-primary" style="float: right">Generate Schedule</button>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="schedule">
+            <div class="table-margin">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Monday</th>
+                            <th scope="col">Tuesday</th>
+                            <th scope="col">Wednesday</th>
+                            <th scope="col">Thursday</th>
+                            <th scope="col">Friday</th>
+                            <th scope="col">Saturday</th>
+                            <th scope="col">Sunday</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Rhonda Wallace</th>
+                            <td><small>8:00 am - 4:00 pm<br />Florence Location</small></td>
+                            <td><small>4:00 pm - 10:00pm<br />Florence Location</small></td>
+                            <td>OFF</td>
+                            <td><small>12:00 pm - Close<br />Mason Location</small></td>
+                            <td>OFF</td>
+                            <td><small>5:00 pm - Close<br />Mason Location</small></td>
+                            <td><small>8:00 am - 12:00 pm<br />Mason Location</small></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Kyle Schwartz</th>
+                            <td><small>4:00 pm - Close<br />Florence Location</small></td>
+                            <td><small>8:00 am - 4:00 pm<br />Florence Location</small></td>
+                            <td><small>5:00 pm - 9:00 pm<br />Florence Location</small></td>
+                            <td><small>8:00 am - 5:00 pm<br />Mason Location</small></td>
+                            <td><small>8:00 am - 4:00 pm<br />Mason Location</small></td>
+                            <td>OFF</td>
+                            <td>OFF</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Janice Maublin</th>
+                            <td>OFF</td>
+                            <td><small>12:00 pm - 10:00 pm<br />Mason Location</small></td>
+                            <td>OFF</td>
+                            <td><small>10:00 am - 4:00 pm<br />Florence Location</small></td>
+                            <td>OFF</td>
+                            <td><small>8:00 am - 12:00 pm<br />Mason Location</small></td>
+                            <td>OFF</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Felix Navidad</th>
+                            <td><small>8:00 am - 4:00 pm<br />Mason Location</small></td>
+                            <td><small>8:00 am - 4:00 pm<br />Mason Location</small></td>
+                            <td><small>8:00 am - 5:00 pm<br />Mason Location</small></td>
+                            <td><small>8:00 am - 4:00 pm<br />Florence Location</small></td>
+                            <td><small>8:00 am - 4:00 pm<br />Florence Location</small></td>
+                            <td>OFF</td>
+                            <td>OFF</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Dwayne "The Rock" Johnson</th>
+                            <td><small>4:00 pm - Close<br />Mason Location</small></td>
+                            <td>OFF</td>
+                            <td><small>5:00 pm - 10:00 pm<br />Mason Location</small></td>
+                            <td><small>4:00 pm - 9:00 pm<br />Florence Location</small></td>
+                            <td><small>5:00 pm - Close<br />Florence Location</small></td>
+                            <td>OFF</td>
+                            <td><small>5:00 pm - Close<br />Mason Location</small></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Morgan Best</th>
+                            <td><small>8:00 am - 5:00 pm<br />Anderson Location</small></td>
+                            <td>OFF</td>
+                            <td><small>8:00 am - 5:00 pm<br />Anderson Location</small></td>
+                            <td>OFF</td>
+                            <td><small>4:00 pm - 10:00 pm<br />Mason Location</small></td>
+                            <td><small>8:00 am - 10:00 pm<br />Anderson Location</small></td>
+                            <td><small>8:00 am - 10:00 pm<br />Florence Location</small></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Katey Pittman</th>
+                            <td>OFF</td>
+                            <td><small>4:00 pm - 10:00 pm<br />Mason Location</small></td>
+                            <td>OFF</td>
+                            <td><small>8:00 am - 5:00 pm<br />Florence Location</small></td>
+                            <td>OFF</td>
+                            <td><small>8:00 am - 5:00 pm<br />Anderson Location</small></td>
+                            <td></td>
+                        </tr>
+                        <tr></tr>
+                            <th scope="row">Andrew Kump</th>
+                            <td><small>8:00am-5:00pm <br />Mason Location</small></td>
+                            <td><small>8:00am-5:00pm <br />Florence Location</small></td>
+                            <td><small>10:00am-8:00pm <br />Mason Location</small></td>
+                            <td><small>8:00am-5:00pm <br />Anderson Location</small></td>
+                            <td>OFF</td>
+                            <td>OFF</td>
+                            <td>OFF</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Andrevv Kump</th>
+                            <td>OFF</td>
+                            <td>OFF</td>
+                            <td>OFF</td>
+                            <td>OFF</td>
+                            <td><small>8:00am-5:00pm <br />Florence Location</small></td>
+                            <td><small>12:00pm-8:00pm <br />Mason Location</small></td>
+                            <td><small>8:00am-5:00pm <br />Anderson Location</small></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

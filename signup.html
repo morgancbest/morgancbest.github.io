@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="styles/custom.css">
+    <link rel="icon" href="favicon.png" type="image/gif" sizes="16x16">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+</head>
+
+<body>
+    <!-- Header (displays "Master Scheduler" at top of page) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <button type="button" class="btn btn-primary btn-lg master-scheduler-header" disabled>Master Scheduler</button>
+    </nav>
+    <div class="login-container">
+        <div class="login-before"></div>
+        <div class="jumbotron-tab">
+            <ul class="nav nav-pills nav-fill nav-pill-style">
+                <li class="nav-item">
+                    <a class="nav-link active show tab-style" data-toggle="tab" href="#manager">Manager</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link tab-style" data-toggle="tab" href="#employee">Employee</a>
+                </li>
+            </ul>
+            <div class="jumbotron">
+                <br>
+                <h1 class="display-3" align="center">Sign Up</h1>
+                <p class="lead" align="center">This is the best application of all time. Sign up below.</p>
+               
+                <div id="myTabContent" class="tab-content">
+                    <div class="tab-pane fade active show" id="manager">
+                        <form>
+                            <fieldset>
+								<br>
+                                <div class="form-group has-success has-danger">
+                                    <label class="form-control-label" for="inputManagerId">Manager ID</label>
+                                    <input type="text" class="form-control" id="managerId" placeholder="Enter Manager ID">
+                                    <div id="badManagerId" class="invalid-feedback" style="display: none">A valid
+                                        mangager id is 4 numbers.</div>
+                                </div>
+                                <div class="form-group has-success has-danger">
+                                    <label for="inputUsername">Username</label>
+                                    <input type="text" class="form-control" id="username" placeholder="Enter username">
+                                    <div id="badUsername" class="invalid-feedback" style="display: none">A valid
+                                        username is at least 5 characters.</div>
+                                </div>
+                                <div class="form-group has-success has-danger">
+                                    <label for="inputEmail">Email</label>
+                                    <input type="text" class="form-control" id="email" placeholder="Enter email">
+                                    <div id="badEmail" class="invalid-feedback" style="display: none">Please enter a
+                                        valid email.</div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Password</label>
+                                    <input type="password" class="form-control" id="password" placeholder="Password">
+                                    <div id="badPassword" class="invalid-feedback" style="display: none">Password
+                                        invalid! The length must be at least 5 and contain a capital letter.</div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Confirm password</label>
+                                    <input type="password" class="form-control" id="verifyPassword" placeholder="Password">
+                                    <div id="badVerifyPassword" class="invalid-feedback" style="display: none">Error,
+                                        different password.</div>
+                                </div>
+								<a href="main.html" class="btn btn-primary submit-button">Sign up</a>
+								<br>
+								<br>
+								<a href="login.html" class="btn btn-outline-primary" style="float: right;">Already have an account? Sign in here.</a>
+							
+							</fieldset>
+                            	
+                        </form>
+                    </div>
+                    <div class="tab-pane fade" id="employee">
+                        <form>
+                            <fieldset>
+                                <br>
+								<div class="form-group has-success has-danger">
+                                    <label class="form-control-label" for="inputManagerId">Employee ID</label>
+                                    <input type="text" class="form-control" id="managerId" placeholder="Enter employee ID">
+                                    <div id="badManagerId" class="invalid-feedback" style="display: none">A valid
+                                        employee id is 4 numbers.</div>
+                                </div>
+                                <div class="form-group has-success has-danger">
+                                    <label for="inputUsername">Username</label>
+                                    <input type="text" class="form-control" id="username" placeholder="Enter username">
+                                    <div id="badUsername" class="invalid-feedback" style="display: none">A valid
+                                        username is at least 5 characters.</div>
+                                </div>
+                                <div class="form-group has-success has-danger">
+                                    <label for="inputEmail">Email</label>
+                                    <input type="text" class="form-control" id="email" placeholder="Enter email">
+                                    <div id="badEmail" class="invalid-feedback" style="display: none">Please enter a
+                                        valid email.</div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Password</label>
+                                    <input type="password" class="form-control" id="password" placeholder="Password">
+                                    <div id="badPassword" class="invalid-feedback" style="display: none">Password
+                                        invalid! The length must be at least 5 and contain a capital letter.</div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Confirm password</label>
+                                    <input type="password" class="form-control" id="verifyPassword" placeholder="Password">
+                                    <div id="badVerifyPassword" class="invalid-feedback" style="display: none">Error,
+                                        different password.</div>
+                                </div>
+                            
+                            <a href="main.html" class="btn btn-primary submit-button">Sign up</a>
+							<br>
+							<br>
+							<a href="login.html" class="btn btn-outline-primary" style="float: right;">Already have an account? Sign in here.</a>
+							</fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="login-before"></div>
+    </div>
+</body>
+
+</html>
